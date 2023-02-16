@@ -5,7 +5,7 @@ export default function CountryListItem({ slug, name }) {
     <div className='flex items-center gap-4 w-full justify-between'>
       <img
         className='h-auto w-14 rounded-sm'
-        src={`/src/flags/${slug}.png`}
+        src={`/flags/${slug}.png`}
         alt={slug}
       />
       <h5 className='text-2xl font-bold tracking-tight text-white'>{name}</h5>

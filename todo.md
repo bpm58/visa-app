@@ -1,6 +1,8 @@
-- filter
-  [ ] za potrebna viza/nije potrebna
+### filter
 
-- cards
-  [ ] dodati broj stanovnika
-  [ ] dodati region
+- [ ] potrebna viza/nije potrebna
+
+### cards
+
+- [ ] dodati broj stanovnika
+- [ ] dodati region

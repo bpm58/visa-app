@@ -53,7 +53,7 @@ export default function useApi(latitude, longitude, timeZone) {
         <span>{Math.round(data.current_weather.temperature)} °C</span>
         <img
           className='w-14'
-          src={`/src/weather-icons/${ICON_MAP.get(
+          src={`/public/weather-icons/${ICON_MAP.get(
             data.current_weather.weathercode
           )}.svg`}
         />

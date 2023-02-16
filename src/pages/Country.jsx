@@ -19,7 +19,7 @@ export default function Country() {
               <div className='flex items-center justify-between w-full pb-6 gap-4'>
                 <img
                   className='h-auto w-16 md:w-28 rounded-sm shadow-md'
-                  src={`/flags/${country.slug}.png`}
+                  src={`/public/flags/${country.slug}.png`}
                   alt={country.slug}
                 />
                 <h1 className='text-xl md:text-4xl font-bold tracking-tight text-white'>

@@ -20,7 +20,7 @@ export default function CountryList() {
 
   return (
     <React.Fragment>
-      <div className='container mx-auto flex pt-8 pb-4 pl-6 pr-6 items-center justify-between'>
+      <div className='container mx-auto flex pt-8 pb-4 pl-6 pr-6 gap-4 flex-col md:items-center md:justify-between md:flex-row'>
         <div className='w-full max-w-sm'>
           <input
             type='text'

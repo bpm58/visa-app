@@ -84,8 +84,8 @@ export default function CountryList() {
               <input
                 type='text'
                 id='countrySearch'
-                className='bg-zinc-800 border border-zinc-700 text-white text-sm md:text-base rounded-sm block w-full px-2 py-2 placeholder:opacity-60'
-                placeholder='Pretraga po imenu države ili glavnog grada...'
+                className='bg-zinc-800 border border-zinc-700 text-white text-base rounded-sm block w-full px-2 py-2 placeholder:opacity-60'
+                placeholder='Pretraga (država ili glavni grad)'
                 required
                 ref={searchInputRef}
                 onChange={(event) => setSearchTerm(event.target.value)}
